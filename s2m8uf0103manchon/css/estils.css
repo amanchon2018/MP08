@@ -1,0 +1,243 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #e6e8eb;
+  font-family:  Lucida Grande,Tahoma, San Francisco, Roboto, Segoe UI;
+}
+#barra {
+  height: 43px;
+  background-color: #334F8D;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100000;
+}
+#contenidor {
+  width: 852px;
+  background-color: #FFF;
+  margin: 0 auto;
+}
+#nom {
+  color: #FFF;
+  width: 320px;
+  position: relative;
+  top: 160px;
+  left: 200px;
+  text-shadow: 0 0 5px #000;
+}
+#portada {
+  height: 206px;
+  background-image: url(../img/portada.jpg);
+  margin-top: 43px;
+}
+#perfil {
+  width: 160px;
+  background-color: pink;
+  border: solid 4px white;
+  border-radius: 4px;
+  position: relative;
+  left: 20px;
+  top: 20px;
+  box-shadow: 0 0 5px #000;
+}
+#menu {
+  height: 44px;
+  background-color: #e6e8eb;
+  padding: 0;
+  margin: 0 0 0 189px;
+  width: 475px;
+  margin-left: 192px;
+}
+
+#menu li {
+  float: left;
+  padding: 0 18px;
+  display: block;
+  font-weight: bold;
+  color: #334F8D;
+  background-color: #FFF;
+  margin-right: 1px;
+  height: 44px;
+  margin: 0 0 0 1px;
+  line-height: 44px;
+}
+#menu li:hover {
+  color: #000;
+  background-image: url(../img/select.gif);
+  background-repeat: no-repeat;
+  background-position: 50% 37px;
+}
+#contingut {
+  border-top: solid 1px #e6e8eb;
+}
+.esquerra {
+  width: 323px;
+  border: solid 1px #CCC;
+  margin: 10px 0;
+  border-radius: 3px;
+}
+.esquerra h4{
+  background-color: yellow;
+  height: 14px;
+  padding: 5px;
+  font-weight: normal;
+  font-size: 18px;
+  text-indent: 36px;
+  background-image: url(../img/lateral.png);
+  background-repeat: no-repeat;
+  margin: 0;
+}
+#presentacio h4 {
+ background-position: 0 0;
+}
+ #fotos h4 {
+  background-position: 0 -24px;
+}
+#fotos li {
+ display: block;
+}
+#presentacio li {
+ display: block;
+ text-indent: 15px;
+  height: 40px;
+  border-top: solid 1px #ccc;
+  font-size: 12px;
+  line-height: 30px
+}
+#amics li {
+ display: block;
+}
+#amics h4 {
+  background-position: 0 -48px;
+}
+.estudis  {
+  background-image: url(../img/icones_estudis.png);
+  background-repeat: no-repeat;
+  background-position: 0 8px;
+}
+.poblacio {
+  background-image: url(../img/icones_domicili.png);
+  background-repeat: no-repeat;
+  background-position: 0 8px;
+}
+.treball {
+  background-image: url(../img/icones_feina.png);
+  background-repeat: no-repeat;
+  background-position: 0 8px;
+}
+.relacio {
+  background-image: url(../img/icones_sentimental.png);
+  background-repeat: no-repeat;
+  background-position: 0 8px;
+}
+.aniversari {
+  background-image: url(../img/icones_esdeveniments.png);
+  background-repeat: no-repeat;
+  background-position: 0 8px;
+}
+.web {
+  background-image: url(../img/icones_rss.png);
+  background-repeat: no-repeat;
+  background-position: 0 8px;
+}
+#fotos ul li {
+  background-color: yellowgreen;
+  display: block;
+  width: 99px;
+  height: 99px;
+  margin: 4px;
+  float: left;
+  background-size: 99px 99px;
+}
+#fotos ul {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+
+}
+#f01 {
+  background-image: url(../img/fotos/f01.jpeg);
+}
+#f02 {
+  background-image: url(../img/fotos/f02.png);
+}
+#f03 {
+  background-image: url(../img/fotos/f03.jpg);
+}
+#f04 {
+  background-image: url(../img/fotos/f04.jpg);
+}
+#f05 {
+  background-image: url(../img/fotos/f05.jpeg);
+}
+#f06 {
+  background-image: url(../img/fotos/f06.jpg);
+}
+#f07 {
+  background-image: url(../img/fotos/f07.jpeg);
+}
+#f08 {
+  background-image: url(../img/fotos/f08.jpg);
+}
+#f09 {
+  background-image: url(../img/fotos/f09.png);
+}
+.esquerra  ul {
+  margin-top: 20px;
+  background-color: red;
+}
+#amics ul li {
+  background-color: yellowgreen;
+  display: block;
+  width: 99px;
+  height: 99px;
+  margin: 4px;
+  float: left;
+  background-size: 99px 99px;
+  color: black;
+  line-height: 178px;
+  text-shadow: 0 0 2px #000;
+  text-indent: 5px;
+}
+#amics ul  {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+#am01 {
+  background-image: url(https://fquispe2018.github.io/s2m8uf103_quispe/img/perfil.jpg);
+}
+#am02 {
+  background-image: url(https://atirado2018.github.io/s2m8uf103_tirado/img/perfil.jpg);
+}
+#am03 {
+  background-image: url(https://npedraza2018.github.io/s2m8uf103_pedraza/img/perfil.jpg);
+}
+#am04 {
+  background-image: url(https://jsanchis2018.github.io/s2m8uf103_sanchis/img/perfil.jpg);
+}
+#am05 {
+  background-image: url(/https://sestall2018.github.io/s2m8uf103_estall/img/perfil.jpg);
+}
+#am06 {
+  background-image: url(/https://jricart2018.github.io/s2m8uf103_ricart/img/perfil.jpg);
+}
+#am07 {
+  background-image: url(/https://mpanchame2018.github.io/s2m8uf103_panchame/img/perfil.jpg);
+}
+#am08 {
+  background-image: url(/https://mlozano2018.github.io/s2m8uf103_lozano/img/perfil.jpg);
+}
+#am09 {
+  background-image: url(/https://acalvo2018.github.io/s2m8uf103_calvo/img/perfil.jpg);
+}
+#am10 {
+  background-image: url(/https://aganoza2018.github.io/s2m8uf103_ganoza/img/perfil.jpg);
+}
+#am11 {
+  background-image: url(/https://amanchon2018.github.io/s2m8uf103_manchon/img/perfil.jpg);
+}
+#am12 {
+  background-image: url(/https://calvareza2018.github.io/s2m8uf103_alvarez/img/perfil.jpg);
+}
