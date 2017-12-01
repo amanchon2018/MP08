@@ -1,0 +1,332 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #e6e8eb;
+  font-family:  Lucida Grande,Tahoma, San Francisco, Roboto, Segoe UI;
+}
+#barra {
+  height: 43px;
+  background-color: #334F8D;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100000;
+}
+#contenidor {
+  width: 852px;
+  background-color: #FFF;
+  margin: 0 auto;
+  overflow: hidden;
+}
+#nom {
+  color: #FFF;
+  width: 320px;
+  position: relative;
+  top: 160px;
+  left: 200px;
+  text-shadow: 0 0 5px #000;
+}
+#portada {
+  height: 206px;
+  background-image: url(../img/portada.jpg);
+  margin-top: 43px;
+}
+#perfil {
+  width: 160px;
+  border: solid 4px white;
+  border-radius: 4px;
+  position: relative;
+  left: 20px;
+  top: 20px;
+  box-shadow: 0 0 5px #000;
+}
+#menu {
+  height: 44px;
+  background-color: #e6e8eb;
+  padding: 0;
+  margin: 0 0 0 189px;
+  width: 475px;
+  margin-left: 192px;
+}
+
+#menu li {
+  float: left;
+  padding: 0 18px;
+  display: block;
+  font-weight: bold;
+  color: #334F8D;
+  background-color: #FFF;
+  margin-right: 1px;
+  height: 44px;
+  margin: 0 0 0 1px;
+  line-height: 44px;
+}
+#menu li:hover {
+  color: #000;
+  background-image: url(../img/select.gif);
+  background-repeat: no-repeat;
+  background-position: 50% 37px;
+}
+#menu ul {
+  overflow: hidden;
+}
+#contingut {
+  border-top: solid 1px #e6e8eb;
+}
+.dreta {
+
+  width: 513px;
+  border: solid 1px #CCC;
+  margin: 10px 0;
+  border-radius: 3px;
+  float: right;
+  position: relative;
+  top: -635px;
+}
+.esquerra {
+  width: 323px;
+  border: solid 1px #CCC;
+  margin: 10px 0;
+  border-radius: 3px;
+  float: left;
+  clear: left;
+  padding: 0;
+}
+.esquerra h4{
+  height: 14px;
+  padding: 5px;
+  font-weight: normal;
+  font-size: 18px;
+  text-indent: 36px;
+  background-image: url(../img/lateral.png);
+  background-repeat: no-repeat;
+  margin: 0;
+}
+#presentacio h4 {
+ background-position: 0 0;
+}
+ #fotos h4 {
+  background-position: 0 -24px;
+}
+#fotos li {
+ display: block;
+}
+#presentacio li {
+
+  height: 30px;
+  border-top: solid 1px #ccc;
+  font-size: 12px;
+  line-height: 30px
+}
+#amics ul li {
+  background-size: 99px 99px;
+   display: block;
+   width: 99px;
+   height: 99px;
+   margin: 4px;
+   float: left;
+   color: #FFF;
+   line-height: 178px;
+   text-shadow: 0 0 2px #000;
+   text-indent: 5px;
+
+}
+#presentacio .estudis  {
+  list-style-image: url(../img/icones_estudis.png);
+
+}
+#presentacio .poblacio {
+  list-style-image: url(../img/icones_domicili.png);
+}
+#presentacio .treball {
+  list-style-image: url(../img/icones_feina.png);
+}
+#presentacio .relacio {
+  list-style-image: url(../img/icones_sentimental.png);
+}
+#presentacio .aniversari {
+  list-style-image: url(../img/icones_esdeveniments.png);
+}
+#presentacio .web {
+  list-style-image: url(../img/icones_rss.png);
+}
+#fotos ul li {
+  display: block;
+  width: 99px;
+  height: 99px;
+  margin: 4px;
+  float: left;
+  background-size: 99px 99px;
+}
+#fotos ul {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+
+}
+#f01 {
+  background-image: url(../img/fotos/f01.jpeg);
+}
+#f02 {
+  background-image: url(../img/fotos/f02.png);
+}
+#f03 {
+  background-image: url(../img/fotos/f03.jpg);
+}
+#f04 {
+  background-image: url(../img/fotos/f04.jpg);
+}
+#f05 {
+  background-image: url(../img/fotos/f05.jpeg);
+}
+#f06 {
+  background-image: url(../img/fotos/f06.jpg);
+}
+#f07 {
+  background-image: url(../img/fotos/f07.jpeg);
+}
+#f08 {
+  background-image: url(../img/fotos/f08.jpg);
+}
+#f09 {
+  background-image: url(../img/fotos/f09.png);
+}
+.esquerra  ul {
+  margin-top: 20px;
+
+}
+#amics ul li {
+  display: block;
+  width: 99px;
+  height: 99px;
+  margin: 4px;
+  float: left;
+  background-size: 99px 99px;
+  color: black;
+  line-height: 178px;
+  text-shadow: 0 0 2px #000;
+  text-indent: 5px;
+}
+#amics ul  {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+#am01 {
+  background-image: url(https://fquispe2018.github.io/MP08/s2m8uf103_quispe/img/perfil.jpg);
+}
+#am02 {
+  background-image: url(https://rtirado2018.github.io/MP08/s2m8uf103_tirado%20/img/perfil.jpg);
+}
+#am03 {
+  background-image: url(https://npedraza2018.github.io/MP08/s2m8uf103_pedraza/img/perfil.jpg);
+}
+#am04 {
+  background-image: url(https://jsanchis2018.github.io/MP08/s2m8uf103_sanchis/img/perfil.jpg);
+}
+#am05 {
+  background-image: url(https://sestall2018.github.io/MP08/s2m8uf103_estall/img/perfil.jpg);
+}
+#am06 {
+  background-image: url(https://jricart2018.github.io/MP08/s2m8uf103_ricart/img/perfil.jpg);
+}
+#am07 {
+  background-image: url(https://mpanchame2018.github.io/MP08/s2m8uf103_panchame/img/perfil.jpg);
+}
+#am08 {
+  background-image: url(https://mlozano2018.github.io/MP08/s2m8uf103_lozano/img/perfil.jpg);
+}
+#am09 {
+  background-image: url(https://acalvo2018.github.io/MP08/s2m8uf103_calvo/img/perfil.jpg);
+}
+#am10 {
+  background-image: url(https://aganoza2018.github.io/MP08/s2m8uf103_ganoza/img/perfil.jpg);
+}
+#am11 {
+  background-image: url(https://amanchon2018.github.io/MP08/s2m8uf103_manchon/img/perfil.jpg);
+}
+#am12 {
+  background-image: url(https://calvarez2018.github.io/MP08/s2m8uf103_alvarez/img/perfil.jpg);
+}
+#pensa ul {
+  height: 40px;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f6f8;
+}
+#pensa ul li {
+  height: 40px;
+  margin: 5px 0 0 35px;
+  float: left;
+  padding-right: 10px;
+  border-right: solid 1px #CCC;
+  font-size: 14px;
+}
+#pensa ul li a {
+  display: block;
+  height: 34px;
+
+}
+#pensa ul li a:hover {
+background-image: url(../img/select.gif);
+background-position: 50% 30px;
+background-repeat: no-repeat;
+}
+#pensa {
+  padding: 0;
+  position: relative;
+}
+
+}
+#pensa div {
+  height: 36px;
+  width: 509px;
+  margin: 0;
+  padding: 0;
+}
+#pensa div input {
+  height: 40px;
+  width: 513px;
+  margin: 0;
+  padding: 0;
+}
+#pensa .estado {
+    list-style-image: url(../img/post.png);
+}
+#pensa .foto {
+    list-style-image: url(../img/fotos.png);
+}
+#pensa .lugar {
+    list-style-image: url(../img/lugar.png);
+}
+#pensa .acontecimiento {
+    list-style-image: url(../img/acontecimiento.png);
+}
+.postintro {
+  padding: 10px 10px 10px 50px;
+  background-image: url(../img/perfil.jpg);
+  background-repeat: no-repeat;
+  background-size: 40px 40px;
+  background-position: 10px 10px;
+}
+/* ---- Estils del mur ----*/
+h5 {
+  font-style: normal;
+  font-weight: normal;
+  margin: 0;
+  height: 10px;
+  padding: 5px;
+}
+h6 {
+  font-style: normal;
+  font-weight: normal;
+  margin: 0;
+  height: 10px;
+  padding: 5px;
+}
+.post img, .post iframe, .post p {
+  font-size: 12px;
+  padding: 10px;
+  width: 493px;
+}
